@@ -29,7 +29,7 @@ header, footer {
 }
 
 header h1 {
-  font-size: 4.3rem;
+  font-size: 4.4rem;
   margin-bottom: 10px;
   font-family: 'Honk', sans-serif;
   color: #333;
@@ -83,3 +83,28 @@ header p {
   font-size: 1.1rem;
   color: #333;
 }
+
+/* Estilos personalizados para o footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  }
+  /* Estilos para os ícones */
+  .social-icons {
+  list-style-type: none;
+  padding: 0;
+  }
+  .social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  .social-icons li:last-child {
+  margin-right: 0;
+  }
+  .social-icons li a {
+  color: #555;
+  font-size: 24px;
+  }
